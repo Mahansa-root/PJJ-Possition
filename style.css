@@ -1,0 +1,242 @@
+
+
+
+h1{
+    color: blue;
+    text-align: center;
+}
+
+h3{
+    color: red;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    gap: 1rem;
+}
+.item{
+    background-color: cyan;
+    text-align: center;
+    font-weight: bold;
+    width: 800px;
+    height: 100px;
+    
+}
+
+.container1{
+    display: grid;
+    gap: 1rem;
+}
+.item1{
+    background-color: cyan;
+    text-align: center;
+    font-weight: bold;
+    width: 800px;
+    height: 100px;
+    
+}
+
+.contoh{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+}
+.conto{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.one{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    display:block;
+}
+.two{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    display:block;
+}
+
+.three{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    display:inline;
+}
+.four{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    display:inline;
+}
+
+.five{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+}
+
+.six{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+}
+
+.seven{
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    display:none;
+}
+
+.eight{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    display:none;
+}
+
+.nine{
+   background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+}
+
+.ten{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    display:inline-block;
+    visibility: hidden;
+}
+
+/* overflow */
+
+.over{
+    height: 75px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: visible
+}
+
+.over2{
+    height: 75px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.over3{
+    height: 75px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: clip;
+    overflow-clip-margin: 13px;
+}
+
+
+.over4{
+    height: 75px;
+    width: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+    /* overflow:auto; */
+}
+
+.static{
+    position: static;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.relative{
+    position: relative;
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    background-color: lightgrey;
+    right: 20px;
+}
+
+.absolute{
+        position: absolute;
+        border: 2px solid black;
+        width: 300px;
+        height: 200px;
+        background-color: lightcoral;
+        top: 50px;
+        right: 100px;
+}
+
+.fixed{
+        position: fixed;
+        border: 2px solid black;
+        width: 1290px;
+        height: 200px;
+        background-color: lightblue;
+        top: 520px;
+        right: 20px;
+        left: 15px;
+        /* right: 100px; */
+}
+.relativeAbsolute{
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+    background-color: azure;
+}
+
+.E{
+    position: absolute;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 50px;
+    left: 700px;
+    top: 16px;
+}
+
+.abs{
+    text-align: center;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 50px;
+    left: 90%;
+}
+footer{
+    height: 900px;
+    text-align: center;
+}
+
+footer h1{
+    margin-top: 600px;
+    padding: 0;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: lightyellow;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+
+
